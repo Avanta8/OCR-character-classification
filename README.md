@@ -7,7 +7,7 @@ This repository is used to convert images of ascii characters to text using tens
 
 Characters can be one of 94 classes - `[0-9][A-Z][a-z]` and symbols such as `(+-./|` etc.
 
-Images must be a size of `64x64 px` - Images of different sizes should be resized to `64x64`, not padded. Padding does not work so well if the models are trainined using the randomly generated [dataset](#dataset).
+Images must be a size of `64x64 px` - Images of different sizes should be resized to `64x64`, not padded. Padding does not work so well if the models are trainined using the randomly generated [dataset](#dataset). Images should have exactly one character in them.
 
 ### Implementation
 
